@@ -1,0 +1,25 @@
+body{
+    background-color: grey;
+}
+
+h1{
+    color: red;
+    font-size: 100px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3{
+    color:rgb(219, 241, 21);
+    text-align: center;
+    text-decoration: solid;
+    position: relative;
+}
+
+.btns{
+    background-color: rgb(0, 128, 6);
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 7%;
+}
