@@ -1,19 +1,39 @@
 const startBtn = document.querySelector("#startBtn");
 
+const eatVal = document.querySelector(".eatVal");
+
+const sleepVal = document.querySelector(".sleepVal");
+
+const playVal = document.querySelector(".playVal");
+
+let ageVal = document.querySelector("#ageVal");
+
+const eatButton = document.querySelector("#eatBtn");
+
+const sleepButton = document.querySelector("#sleepBtn");
+
+const playButton = document.querySelector("#playBtn");
+
 startBtn.addEventListener("click", () => {
     startBtn.style.display = "none"
+
+    let ageValue = setInterval (()=>{
+        ageVal.innerHTML++
+    },10000);
+
     let gameVal = setInterval (()=>{
         eatVal.innerHTML--
         sleepVal.innerHTML--
         playVal.innerHTML--
-        ageVal.innerHTML++
         if (eatVal.innerHTML < 1 || sleepVal.innerHTML < 1 || playVal.innerHTML < 1){
             clearInterval(gameVal)
+            gameOver.style.display = "inline"
+
+
         }
     },2500)
 });
 
-const eatButton = document.querySelector("#eatBtn");
 
 eatButton.addEventListener("click", () => {
     if (eatVal.innerHTML < 10){
@@ -21,42 +41,15 @@ eatButton.addEventListener("click", () => {
     }
 })
 
-const sleepButton = document.querySelector("#sleepBtn");
 
 sleepButton.addEventListener("click", () => {
     if (sleepVal.innerHTML < 10){
         sleepVal.innerHTML++
     }
 })
-const playButton = document.querySelector("#playBtn");
 
     playButton.addEventListener("click", () => {
         if (playVal.innerHTML < 10){
             playVal.innerHTML++
         }
-})
-
-
-const eatVal = document.querySelector(".eatVal");
-
-eatVal.addEventListener("click", () => {
-    
-})
-
-const sleepVal = document.querySelector(".sleepVal");
-
-sleepVal.addEventListener("click", () => {
-    
-})
-
-const playVal = document.querySelector(".playVal");
-
-playVal.addEventListener("click", () => {
-    
-})
-
-let ageVal = document.querySelector("#ageVal");
-
-ageVal.addEventListener("click" , () => {
-    
 })

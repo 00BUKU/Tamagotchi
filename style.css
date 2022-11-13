@@ -23,3 +23,7 @@ h3{
     position: absolute;
     bottom: 7%;
 }
+
+#gameOver{
+    display: none;
+}
