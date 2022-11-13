@@ -4,6 +4,11 @@ startBtn.addEventListener("click", () => {
     startBtn.style.display = "none"
     let gameVal = setInterval (()=>{
         eatVal.innerHTML--
+        sleepVal.innerHTML--
+        playVal.innerHTML--
+        if (eatVal.innerHTML < 1 || sleepVal.innerHTML < 1 || playVal.innerHTML < 1){
+            clearInterval(gameVal)
+        }
     },2500)
 });
 
