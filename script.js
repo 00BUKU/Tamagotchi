@@ -6,6 +6,7 @@ startBtn.addEventListener("click", () => {
         eatVal.innerHTML--
         sleepVal.innerHTML--
         playVal.innerHTML--
+        ageVal.innerHTML++
         if (eatVal.innerHTML < 1 || sleepVal.innerHTML < 1 || playVal.innerHTML < 1){
             clearInterval(gameVal)
         }
@@ -15,18 +16,24 @@ startBtn.addEventListener("click", () => {
 const eatButton = document.querySelector("#eatBtn");
 
 eatButton.addEventListener("click", () => {
-    
+    if (eatVal.innerHTML < 10){
+        eatVal.innerHTML++
+    }
 })
 
 const sleepButton = document.querySelector("#sleepBtn");
 
 sleepButton.addEventListener("click", () => {
-    
+    if (sleepVal.innerHTML < 10){
+        sleepVal.innerHTML++
+    }
 })
 const playButton = document.querySelector("#playBtn");
 
     playButton.addEventListener("click", () => {
-        
+        if (playVal.innerHTML < 10){
+            playVal.innerHTML++
+        }
 })
 
 
