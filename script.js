@@ -1,7 +1,10 @@
 const startBtn = document.querySelector("#startBtn");
 
 startBtn.addEventListener("click", () => {
-    console.log("start works");
+    startBtn.style.display = "none"
+    let gameVal = setInterval (()=>{
+        eatVal.innerHTML--
+    },2500)
 });
 
 const eatButton = document.querySelector("#eatBtn");
