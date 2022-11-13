@@ -15,3 +15,21 @@ const playButton = document.querySelector("#playBtn");
         console.log("WORKS!");
 })
 
+
+const eatVal = document.querySelector(".eatVal");
+
+eatVal.addEventListener("click", () => {
+    console.log("WORKS!");
+})
+
+const sleepVal = document.querySelector(".sleepVal");
+
+sleepVal.addEventListener("click", () => {
+    console.log("WORKS!");
+})
+
+const playVal = document.querySelector(".playVal");
+
+playVal.addEventListener("click", () => {
+    console.log("WORKS!");
+})
