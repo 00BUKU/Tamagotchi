@@ -33,3 +33,9 @@ const playVal = document.querySelector(".playVal");
 playVal.addEventListener("click", () => {
     console.log("WORKS!");
 })
+
+let ageVal = document.querySelector("#ageVal");
+
+ageVal.addEventListener("click" , () => {
+    console.log("age works");
+})
