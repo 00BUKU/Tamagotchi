@@ -1,0 +1,48 @@
+body{
+    background-color: grey;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+h1{
+    color: red;
+    font-size: 100px;
+    text-align: center;
+}
+
+h3{
+    color:rgb(219, 241, 21);
+    text-align: center;
+    text-decoration: solid;
+    position: relative;
+    text-decoration: underline;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative; top: -250px;
+}
+
+#gameOver{
+    display: none;
+}
+.espValues{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative; top: -200px;
+}
+
+.esptext{
+    display: flex;
+    justify-content:space-evenly;
+    position: relative; top: -500px;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.texts{
+    display: flex;
+    justify-content:center;
+    position: relative; top: -840px;
+}
