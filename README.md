@@ -17,3 +17,22 @@ The pets age is your score. The longer you keep your pet alive the higher your s
 
 
 Technologies used: JavaScript / HTML / CSS
+
+Launch Game: file:///home/clyde/code/Tamagotchi/Tamagotchi/index.html
+
+
+Future enhancments:
+
+Will be adding a Tamagotchi pet that will show happy, sad and dead.
+
+Ability to name Tamagotchi pet.
+
+Ability to save high scores.
+
+Visual enhancments and big fixes.
+
+
+SCREEN SHOT:
+
+
+
