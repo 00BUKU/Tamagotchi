@@ -1,17 +1,8 @@
-
-
 const eatVal = document.querySelector("#eatVal");
-
 const sleepVal = document.querySelector("#sleepVal");
-
 const playVal = document.querySelector("#playVal");
-
 let ageVal = document.querySelector("#ageVal");
-
-
-
 const sleepButton = document.querySelector("#sleepBtn");
-
 const playButton = document.querySelector("#playBtn");
 const startBtn = document.querySelector("#startBtn");
 startBtn.addEventListener("click", () => {
@@ -33,7 +24,7 @@ startBtn.addEventListener("click", () => {
 
 
         }
-    },2500)
+    },250)
 });
 
 const eatButton = document.querySelector("#eatBtn");

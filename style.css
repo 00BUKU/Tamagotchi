@@ -8,41 +8,61 @@ h1{
     color: red;
     font-size: 100px;
     text-align: center;
+    position: relative; top: -40px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
 }
 
-h3{
-    color:rgb(219, 241, 21);
-    text-align: center;
-    text-decoration: solid;
-    position: relative;
-    text-decoration: underline;
-}
 
 .btns{
     display: flex;
     justify-content: space-evenly;
     position: relative; top: -250px;
+    
 }
 
 #gameOver{
     display: none;
+    position: relative; right: -620px; top: -400px;
 }
 .espValues{
+    color:black;
     display: flex;
     justify-content: space-evenly;
-    position: relative; top: -200px;
+    position: relative; top: -130px;
+    font-size: 32px;
 }
 
 .esptext{
     display: flex;
     justify-content:space-evenly;
-    position: relative; top: -500px;
+    position: relative; top: -460px;
     text-decoration: underline;
     font-weight: 900;
+    font-size: 42px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: red;
 }
 
 .texts{
     display: flex;
     justify-content:center;
-    position: relative; top: -840px;
+    position: relative; top: -800px;
+}
+
+#eatBtn, #sleepBtn, #playBtn, #startBtn{
+    font-size: 24px;
+}
+
+#ageText{
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+#eatVal{
+    position: relative; right: 30px;
+}
+
+#playVal{
+    position: relative; left: 20px; 
 }
