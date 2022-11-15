@@ -8,7 +8,7 @@ h1{
     color: red;
     font-size: 100px;
     text-align: center;
-    position: relative; top: -40px;
+    position: relative; top: -60px;
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: black;
 }
@@ -30,7 +30,7 @@ h1{
     display: flex;
     justify-content: space-evenly;
     position: relative; top: -130px;
-    font-size: 32px;
+    font-size: 48px;
 }
 
 .esptext{
@@ -47,7 +47,9 @@ h1{
 .texts{
     display: flex;
     justify-content:center;
-    position: relative; top: -800px;
+    position: relative; top: -440px;
+    font-size: 28px;
+    padding-right: 10px;
 }
 
 #eatBtn, #sleepBtn, #playBtn, #startBtn{
@@ -57,7 +59,6 @@ h1{
 #ageText{
     padding-left: 10px;
     text-decoration: underline;
-    font-size: 28px;
 }
 
 #eatVal{
@@ -66,4 +67,9 @@ h1{
 
 #playVal{
     position: relative; left: 20px; 
+}
+
+#pet{
+    font-size: 48px;
+    position: relative; top: -400px; right: -910px;
 }

@@ -1,3 +1,4 @@
+const happyPet = document.querySelector("#pet");
 const eatVal = document.querySelector("#eatVal");
 const sleepVal = document.querySelector("#sleepVal");
 const playVal = document.querySelector("#playVal");
@@ -24,7 +25,7 @@ startBtn.addEventListener("click", () => {
 
 
         }
-    },250)
+    },10000)
 });
 
 const eatButton = document.querySelector("#eatBtn");
