@@ -73,3 +73,9 @@ h1{
     font-size: 48px;
     position: relative; top: -400px; right: -910px;
 }
+
+#deadPet{
+    display: none;
+    font-size: 48px;
+    position: relative; top: -400px; right: -910px;
+}

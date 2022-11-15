@@ -1,34 +1,36 @@
-const happyPet = document.querySelector("#pet");
+let pet = document.querySelector("#pet");
+let sadPet = document.querySelector("#sadPet");
+let deadPet = document.querySelector("#deadPet");
 const eatVal = document.querySelector("#eatVal");
 const sleepVal = document.querySelector("#sleepVal");
 const playVal = document.querySelector("#playVal");
 let ageVal = document.querySelector("#ageVal");
+const eatButton = document.querySelector("#eatBtn");
 const sleepButton = document.querySelector("#sleepBtn");
 const playButton = document.querySelector("#playBtn");
 const startBtn = document.querySelector("#startBtn");
 startBtn.addEventListener("click", () => {
     startBtn.style.display = "none"
 
-    let ageValue = setInterval (()=>{
+    let ageValue = setInterval (()=> {
         ageVal.innerHTML++
         if (eatVal.innerHTML < 1 || sleepVal.innerHTML < 1 || playVal.innerHTML < 1){
             clearInterval(ageValue)
     }},10000);
 
-    let gameVal = setInterval (()=>{
+    let gameVal = setInterval (()=> {
         eatVal.innerHTML--
         sleepVal.innerHTML--
         playVal.innerHTML--
         if (eatVal.innerHTML < 1 || sleepVal.innerHTML < 1 || playVal.innerHTML < 1){
             clearInterval(gameVal)
             gameOver.style.display = "inline"
-
-
+            pet.style.display = "none"
+            deadPet.style.display = "inline"
         }
-    },10000)
+    },1000)
 });
 
-const eatButton = document.querySelector("#eatBtn");
 eatButton.addEventListener("click", () => {
     if (eatVal.innerHTML < 10){
         eatVal.innerHTML++
@@ -47,3 +49,7 @@ sleepButton.addEventListener("click", () => {
             playVal.innerHTML++
         }
 })
+
+
+
+
