@@ -8,7 +8,7 @@ Make eat, sleep, play buttons and counters.
 
 Buttons will increase value of counters. 
 
-Counters will decrease in value over time. 
+Counters values will decrease in value over time. 
 
 Create pet age/score counter that will increase over time.
 
