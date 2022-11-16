@@ -16,7 +16,13 @@ startBtn.addEventListener("click", () => {
         ageVal.innerHTML++
         if (eatVal.innerHTML < 1 || sleepVal.innerHTML < 1 || playVal.innerHTML < 1){
             clearInterval(ageValue)
-    }},10000);
+        }else if (ageVal.innerHTML == 100){
+            clearInterval(ageValue)
+            clearInterval(gameVal)
+            gameWon.style.display = "inline"
+            pet.style.display = "none"
+    }
+},10000);
 
     let gameVal = setInterval (()=> {
         eatVal.innerHTML--
@@ -28,7 +34,7 @@ startBtn.addEventListener("click", () => {
             pet.style.display = "none"
             deadPet.style.display = "inline"
         }
-    },1000)
+    },1500)
 });
 
 eatButton.addEventListener("click", () => {

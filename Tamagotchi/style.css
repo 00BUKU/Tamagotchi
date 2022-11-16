@@ -24,7 +24,15 @@ h1{
 #gameOver{
     display: none;
     position: relative; right: -620px; top: -400px;
+
 }
+
+#gameWon{
+    display: none;
+    position: relative; right: -680px; top: -400px;
+    
+}
+
 .espValues{
     color:black;
     display: flex;
