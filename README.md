@@ -4,8 +4,6 @@ Project 1
 TAMAGOTCHI
 
 
-TAMAGOTCHI
-
 Tamagotchi history:
 
 Tamagotchi was invented by Aki Maita and Akihiro Yokoi in 1996. 
