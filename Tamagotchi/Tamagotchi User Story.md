@@ -16,4 +16,6 @@ In order to keep playing the user will increase the values of the counters by cl
 
 Should any of the EAT SLEEP PLAY counters decrease to 0 (zero) the user's pet will die and the game will end. 
 
+If User can keep pet alive until age 100, the User will win the game.
+
 

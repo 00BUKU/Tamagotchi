@@ -32,7 +32,7 @@ Ability to save high scores.
 Visual enhancments and big fixes.
 
 
-SCREEN SHOT:
+
 
 
 
