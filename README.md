@@ -26,6 +26,8 @@ In Tamagotchi the object of the game is to keep your pet alive based on its need
 By clicking the corresponding buttons you will satisfy your pet's needs, keeping it alive.
 The pets age is your score. The longer you keep your pet alive the higher your score. Try to keep your pet alive until it dies of old age at 100 to win!
 
+https://github.com/00BUKU/Tamagotchi/blob/gh-pages/Screenshot%20from%202022-11-17%2011-25-27.png
+
 Technologies used: JavaScript / HTML / CSS
 
 Launch Game: (https://00buku.github.io/Tamagotchi/Tamagotchi/)
